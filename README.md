@@ -1,5 +1,7 @@
 # Startpage
 
+![screenshot of the startpage](screen1.png)
+
 A quick port of what used to be my closed-source start page running on my home server.
 
 ## Notes
