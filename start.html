@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>New Tab</title>
+		<meta name="description" content="Johnystar's start page">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<script src="https://kit.fontawesome.com/f84a5cdb80.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="normalize.css">
+		<link rel="stylesheet" href="/css/main.css">
+	</head>
+
+	<body>
+		<div class="container">
+			<div id="clock"></div>
+
+			<div id="search">
+				<form onsubmit="return searchDDG()">
+					<input type="text" placeholder="DDG Search..." id='search_box'>
+					<button type="submit"><i class="fas fa-search"></i></button>
+				</form>
+			</div>
+
+			<div id="bookmark-categories">
+				<div id="bookmark-category">
+					<div id="bookmark-category-title">Media</div>
+					<ul>
+						<li><a href='https://www.youtube.com/'>YouTube</a></li>
+						<li><a href='https://soundcloud.com/'>SoundCloud</a></li>
+						<li><a href='https://safebooru.donmai.us/'>Safebooru</a></li>
+					</ul>
+				</div>
+
+				<div id="bookmark-category">
+					<div id="bookmark-category-title">Social</div>
+					<ul>
+						<li><a href='https://4chan.org/'>4chan</a></li>
+						<li><a href='https://www.reddit.com/'>Reddit</a></li>
+						<li><a href='https://twitter.com/'>Twitter</a></li>
+					</ul>
+				</div>
+
+				<div id="bookmark-category">
+					<div id="bookmark-category-title">Games</div>
+					<ul>
+						<li><a href='https://www.humblebundle.com/'>Humble Bundle</a></li>
+						<li><a href='https://store.steampowered.com/'>Steam</a></li>
+						<li><a href='https://www.gog.com/'>GOG</a></li>
+						<li><a href='https://www.fanatical.com/'>Fanatical</a></li>
+						<li><a href='https://itch.io/'>itch.io</a></li>
+					</ul>
+				</div>
+
+				<div id="bookmark-category">
+					<div id="bookmark-category-title">Coding</div>
+					<ul>
+						<li><a href='https://stackoverflow.com/'>StackOverflow</a></li>
+						<li><a href='https://pypi.org/'>PyPI</a></li>
+						<li><a href='https://github.com/'>GitHub</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<script src="/js/main.js"></script>
+		</div>
+		<img class="character" src="/img/owo.png">
+		<div class="information">
+			Johnystar / Images from <a href='https://unsplash.com/s/photos/japan'><i class="fab fa-unsplash"></i> Unsplash</a>
+		</div>
+	</body>
+
+</html>
