@@ -6,7 +6,8 @@ A quick port of what used to be my closed-source start page running on my home s
 
 ## Planned
 
-- [ ] light/dark based on browser prefference
+- [x] light/dark based on browser prefference
+- [ ] search engine choice
 
 ## Notes
 

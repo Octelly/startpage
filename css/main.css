@@ -65,9 +65,8 @@ body {
 }
 
 #search {
-	background-color: #222222d0;
-	backdrop-filter: blur(30px);
-	color: white;
+	background-color: white;
+	color: black;
 
 	border-radius: 1.5vh;
 	padding: 1.5vh;
@@ -76,8 +75,6 @@ body {
 
 #search input {
 	border-style: none;
-	background-color: transparent;
-	color: white;
 	padding: 0;
 
 	width: 25vw;
@@ -85,8 +82,7 @@ body {
 
 #search button {
 	border-style: none;
-	background-color: transparent;
-	color: white;
+	background-color: white;
 }
 
 #bookmark-categories {
@@ -102,9 +98,8 @@ body {
 #bookmark-category {
 	flex: 1 1 0px;
 
-	background-color: #222222d0;
-	backdrop-filter: blur(30px);
-	color: white;
+	background-color: white;
+	color: black;
 
 	border-radius: 1.5vh;
 	padding: 1.5vh;
@@ -126,12 +121,12 @@ body {
 }
 
 #bookmark-category ul li a {
-	color: white;
+	color: black;
 	width: 100%;
 }
 
 #bookmark-category ul li a * {
-	color: white;
+	color: black;
 	width: 100%;
 }
 
@@ -146,4 +141,38 @@ a {
 
 a:hover {
 	opacity: 0.7;
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+	#search {
+		background-color: #222222d0;
+		backdrop-filter: blur(30px);
+		color: white;
+	}
+
+	#search input {
+		background-color: transparent;
+		color: white;
+	}
+	
+	#search button {
+		background-color: transparent;
+		color: white;
+	}
+
+	#bookmark-category {
+		background-color: #222222d0;
+		backdrop-filter: blur(30px);
+		color: white;
+	}
+
+	#bookmark-category ul li a {
+		color: white;
+	}
+	
+	#bookmark-category ul li a * {
+		color: white;
+	}
 }
