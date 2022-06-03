@@ -1,6 +1,6 @@
 # Startpage
 
-![screenshot of the startpage in dark mode](screen3.png)
+![screenshot of the startpage in dark mode](screen4.png)
 
 A quick port of what used to be my closed-source start page running on my home server.
 
@@ -16,5 +16,6 @@ A quick port of what used to be my closed-source start page running on my home s
 
 ## Old screenshots
 
+![screenshot of the startpage in dark mode](screen3.png)
 ![screenshot of the startpage in dark mode](screen2.png)
 ![screenshot of the startpage in light mode](screen1.png)
