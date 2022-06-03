@@ -1,6 +1,6 @@
 # Startpage
 
-![screenshot of the startpage](screen2.png)
+![screenshot of the startpage in dark mode](screen3.png)
 
 A quick port of what used to be my closed-source start page running on my home server.
 
@@ -12,7 +12,9 @@ A quick port of what used to be my closed-source start page running on my home s
 ## Notes
 
 - ``favicon.ico`` is a renamed copy of ``icon.png``
+- dark mode blur doesn't work in Firefox: [bugzilla 1578503](https://bugzil.la/1578503)
 
 ## Old screenshots
 
-![screenshot of the startpage](screen1.png)
+![screenshot of the startpage in dark mode](screen2.png)
+![screenshot of the startpage in light mode](screen1.png)
