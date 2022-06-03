@@ -19,9 +19,14 @@ function currentTime() {
   
 currentTime(); /* calling currentTime() function to initiate the process */
 
-function searchDDG() {
-	search_term = document.getElementById('search_box').value;
-	window.location.href = "https://duckduckgo.com/?q=" + encodeURI(search_term);
+var search_engines = {
+	"ddg": "https://duckduckgo.com/?q=%s",
+	"searx-tiekoetter": "https://searx.tiekoetter.com/search?q=%s"
+}
+
+function search() {
+	search_box = document.getElementById('search_box');
+	window.location.href = search_engines["searx-tiekoetter"].replace("%s", encodeURI(search_box.value));
 
 	return false;
 }
