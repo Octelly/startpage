@@ -12,7 +12,7 @@ A quick port of what used to be my closed-source start page running on my home s
 ## Notes
 
 - ``favicon.ico`` is a renamed copy of ``icon.png``
-- dark mode blur doesn't work in Firefox: [bugzilla 1578503](https://bugzil.la/1578503)
+- ~~dark mode blur doesn't work in Firefox: [bugzilla 1578503](https://bugzil.la/1578503)~~ this has been fixed since!
 
 ## Old screenshots
 
